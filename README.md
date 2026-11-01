@@ -62,6 +62,15 @@ buildTypes { release { signingConfig = signingConfigs.getByName("release") } }
 
 三个面板，从上到下回答四个问题：**在跑吗 → 卡在哪 → 配了哪些 → 刚才那条为什么没推出去**。
 
+<p align="center">
+  <img src="docs/screenshots/monitor.png" width="31%" valign="top" alt="监控面板">
+  <img src="docs/screenshots/config.png" width="31%" valign="top" alt="配置面板">
+  <img src="docs/screenshots/about.png" width="31%" valign="top" alt="关于面板">
+</p>
+
+> 截图由 `ScreenshotTest` 用 Robolectric 渲染生成（`./gradlew testDebugUnitTest`），
+> 数据全部是假的：域名 `pay.example.com`、密钥 `testkey0001`、通道 8/9。
+
 ### 监控面板
 
 | 区块 | 内容 |
